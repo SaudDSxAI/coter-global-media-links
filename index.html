@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COTER Global - Media Links</title>
+    <meta name="description" content="COTER Global media links, job portal, LinkedIn, and WhatsApp community.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header class="profile-header">
+            <div class="avatar-container">
+                <div class="avatar-glow"></div>
+                <img src="https://ui-avatars.com/api/?name=Coter+Global&background=0D0D0D&color=fff&size=128&font-size=0.4" alt="COTER Global Logo" class="avatar" id="brand-logo">
+            </div>
+            <h1 class="brand-name">COTER Global</h1>
+            <p class="tagline">Empowering your career with AI.</p>
+            <div class="badge">𝗔𝗽𝗽𝗹𝘆 𝗡𝗼𝘄</div>
+        </header>
+
+        <div class="links-container">
+            <!-- Portal Link -->
+            <a href="https://coter.ovallabs.org" target="_blank" rel="noopener noreferrer" class="link-card highlight-card">
+                <div class="link-icon-wrapper">
+                    <i class="ph ph-sparkle"></i>
+                </div>
+                <div class="link-content">
+                    <h2>AI-Powered Portal</h2>
+                    <p>Submit your CV through our platform</p>
+                </div>
+                <div class="link-action">
+                    <i class="ph ph-arrow-up-right"></i>
+                </div>
+            </a>
+
+            <!-- LinkedIn Link -->
+            <a href="https://ae.linkedin.com/company/coterglobal" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="link-icon-wrapper linkedin">
+                    <i class="ph ph-linkedin-logo"></i>
+                </div>
+                <div class="link-content">
+                    <h2>Follow on LinkedIn</h2>
+                    <p>Get the latest updates & insights</p>
+                </div>
+                <div class="link-action">
+                    <i class="ph ph-arrow-up-right"></i>
+                </div>
+            </a>
+
+            <!-- WhatsApp Channel Link -->
+            <a href="https://whatsapp.com/channel/0029Va9BU6dB4hdVq6SNXb1g" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="link-icon-wrapper whatsapp">
+                    <i class="ph ph-whatsapp-logo"></i>
+                </div>
+                <div class="link-content">
+                    <h2>WhatsApp Channel</h2>
+                    <p>Follow COTER Global for news</p>
+                </div>
+                <div class="link-action">
+                    <i class="ph ph-arrow-up-right"></i>
+                </div>
+            </a>
+
+            <!-- WhatsApp Group Link -->
+            <a href="https://chat.whatsapp.com/JaypXxKyMHDBRvhCO5OYmx" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="link-icon-wrapper whatsapp">
+                    <i class="ph ph-users"></i>
+                </div>
+                <div class="link-content">
+                    <h2>WhatsApp Group</h2>
+                    <p>Join for the latest opportunities</p>
+                </div>
+                <div class="link-action">
+                    <i class="ph ph-arrow-up-right"></i>
+                </div>
+            </a>
+
+            <!-- Phone / Assistance -->
+            <a href="tel:+971557118255" class="link-card contact-card">
+                <div class="link-icon-wrapper phone">
+                    <i class="ph ph-phone-call"></i>
+                </div>
+                <div class="link-content">
+                    <h2>Need Assistance?</h2>
+                    <p>Call us: +971 55 711 8255</p>
+                </div>
+                <div class="link-action">
+                    <i class="ph ph-phone"></i>
+                </div>
+            </a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 COTER Global. All rights reserved.</p>
+        </footer>
+    </main>
+    
+    <script>
+        // Micro-animations for entering cards
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.link-card');
+            cards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1 + 0.3}s`;
+                card.classList.add('animate-in');
+            });
+        });
+    </script>
+</body>
+</html>
